@@ -16,7 +16,7 @@ git commit -m 'Cut from gh:occ/template-repo'
 git tag 0.1.0
 git remote add origin git@github.com:occ-data/{{ cookiecutter.package_name }}.git
 
-git commit --quiet --amend -m 'Cut from gh:uc-cdis/template-repo'
+git commit --quiet --amend -m 'Cut from gh:occ-data/template-repo'
 git tag -f 0.1.0
 
 echo -e '\e[1mYour new {{ cookiecutter.package_type.lower() }} is ready under: \e[31m{{ cookiecutter.package_name }}\e[0m'
