@@ -12,10 +12,14 @@ This is template repository to create services.
     pip install cookiecutter pipenv
     ```
 
-2. Use Cookiecutter to create your new service:
+2. Use Cookiecutter to create your new generic repo or Python repo:
 
     ```bash
-    cookiecutter gh:occ-data/template-repo
+    cookiecutter gh:occ-data/template-repo --checkout generic-template
+    ```
+    
+    ```bash
+    cookiecutter gh:occ-data/template-repo --checkout python-template
     ```
 
 3. Follow the interactive guide and you'll get your new service.
