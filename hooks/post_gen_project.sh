@@ -12,7 +12,7 @@ rm ./tests/system_test.py
 echo -e '\e[1mCreating git repository...\e[0m'
 git init
 git add -A .
-git commit -m 'Cut from gh:uc-cdis/template-repo'
+git commit -m 'Cut from gh:occ/template-repo'
 git tag 0.1.0
 git remote add origin git@github.com:uc-cdis/{{ cookiecutter.package_name }}.git
 
