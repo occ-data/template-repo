@@ -44,18 +44,3 @@ echo "export PATH=\"`python -m site --user-base`/bin:\$PATH\"" >> ~/.bash_profil
 ```
 
 (Or alternatively, you may use sudo pip install without `--user` and `PATH` trouble)
-
-
-## About pyenv
-
-It is convenient to manage multiple Python versions and multiple virtualenvs with
-[pyenv](https://github.com/pyenv/pyenv). It is usually available as a system package.
-For example on macOS:
-
-```bash
-brew install pyenv pyenv-virtualenv
-pyenv init 2>> ~/.bash_profile
-pyenv virtualenv-init 2>> ~/.bash_profile
-```
-
-Pipenv would make the most of pyenv if they are both installed.
