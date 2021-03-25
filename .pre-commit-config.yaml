@@ -1,9 +1,9 @@
 repos:
 -   repo: git@github.com:Yelp/detect-secrets
-    rev: v0.14.3
+    rev: v1.0.3
     hooks:
     -   id: detect-secrets
-        args: ['--baseline', '.secrets.baseline', '--custom-plugins', 'detect-secrets-plugins/']
+        args: ['--baseline', '.secrets.baseline','--plugin','detect-secrets-plugins/occ_regex.py']
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.5.0
     hooks:
